@@ -55,7 +55,7 @@ div>p
     flex-flow: column;
 }
 
-.child1,.child2,.child3,.child4
+.container
 {
     border: 2px;
     padding: 10px;
@@ -63,11 +63,16 @@ div>p
     width: 200px;
     display: inline-block;
     box-sizing: border-box;
+    display: flex;
+    flex-direction: column-reverse;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
 .child1
 {
     background-color: red;
+    flex-basis: 50%;
 }
 
 .child2
