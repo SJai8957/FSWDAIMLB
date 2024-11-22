@@ -53,3 +53,50 @@ li:hover
 {
     background-color: cadetblue;
 }
+
+.row4
+{
+    border: 2px solid gold;
+    display: flex;
+    background-color: burlywood;
+    grid-row: 4/5;
+    grid-column: 1/13;
+    justify-content: space-evenly;
+    height: 400px;
+    align-items: center;
+}
+
+.row41, .row42, .row43, .row44
+{
+    width: 260px;
+    height: 300px;
+
+} 
+
+.row41
+{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+}
+
+.row411
+{
+    background-color: blue;
+    border: 1px solid yellowgreen;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-content: normal;
+
+
+}
+
+.row412
+{
+    background-color: brown;
+}
+
+.row413
+{
+    background-color: aqua;
+}
